@@ -1,0 +1,153 @@
+:root {
+    --wh: rgb(255,255,255);
+    --y: rgb(255, 255, 0);
+    --bl: rgb(37, 0, 110);
+    --gr: rgb(220, 220, 220);
+    --dkbl: rgb(7, 0, 50);
+}
+
+body {
+    margin: 0%;
+}
+
+h2, h4 {
+    color: var(--wh);
+}
+
+h3 {
+    color: var(--y);
+}
+
+p {
+    color: var(--gr);
+}
+
+
+/* Articolo 1 */
+.FirstSection-custom {
+    background-image: url(./Media/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-custom-logo {
+    width: 30%;
+}
+
+.img-custom-game {
+    width: 40%;
+}
+
+.bi {
+    color: var(--y);
+}
+
+.btn {
+    height: 10%;
+}
+
+
+/* Articolo 2 */
+.SecondSection-custom {
+    background-color: var(--bl);
+}
+
+.img-custom-2 {
+    width: 30%;
+}
+
+
+/* Articolo 3 */
+.ThirdSection-custom {
+    background-image: url(./Media/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-custom {
+    background-color: var(--bl);
+    position: relative;
+    top: 30%;
+}
+
+.Section3-custom {
+    position: relative;
+    top: 15vh;
+}
+
+input {
+    background-color: var(--bl);
+}
+
+
+/* Articolo 4 */
+.FourthSection-custom {
+    background-color: var(--dkbl);
+}
+
+.img-custom-Aulab {
+    width: 30%;
+}
+
+
+/* Articolo 5 */
+.FifthSection-custom {
+    background-image: url(./Media/bg-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-custom-Candidato{
+    height: 60%;
+    position: relative;
+    right: 5%;
+    bottom: 5%;
+}
+
+.Article5-custom{
+    position: relative;
+    bottom: 8%;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    /* Articolo 1 */
+    .img-custom-game {
+        width: 35%;
+        height: 300px;
+    }
+
+    /* Articolo 2 */
+    .Article2-custom {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-align: justify;
+    }
+
+    .img-custom-2 {
+        width: 100%;
+    }
+
+    /* Articolo 4 */
+    .Section4-custom {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .img-custom-Aulab {
+        width: 60%;
+    }
+
+    /* Articolo 5 */
+    .Section5-custom {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+
+}
